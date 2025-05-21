@@ -1,0 +1,6 @@
+ipykernel
+streamlit==1.32.0
+streamlit-webrtc==0.47.1
+pydub==0.25.1
+openai==1.13.3
+python-dotenv==1.0.0

@@ -1,0 +1,45 @@
+# Aions Transcritor
+
+Um aplicativo Streamlit para gravar, transcrever e resumir reuniões em tempo real.
+
+## Recursos
+
+- Gravação de áudio em tempo real usando WebRTC
+- Transcrição de voz para texto com OpenAI Whisper
+- Resumo automático de reuniões com GPT
+- Design de interface "glass-morphism" elegante
+- Histórico e gerenciamento de reuniões
+
+## Requisitos
+
+- Python 3.8+
+- Chave de API OpenAI
+- Streamlit
+
+## Instalação
+
+2. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+3. Crie um arquivo `.env` na raiz do projeto com sua chave de API OpenAI:
+```
+OPENAI_API_KEY=sua_chave_api_aqui
+```
+
+4. Você também precisa do ffmpeg. O executável já está incluído no repositório, ou você pode baixá-lo separadamente.
+
+## Uso
+
+Execute o aplicativo:
+```bash
+streamlit run main.py
+```
+
+## Como funciona
+
+1. **Gravar uma reunião**: Clique para iniciar a gravação. O aplicativo transcreve sua fala em tempo quase real.
+2. **Ver reuniões anteriores**: Selecione qualquer reunião anterior para ver sua transcrição e resumo gerado por IA.
+3. **Resumo da reunião**: Cada reunião é automaticamente resumida com pontos-chave e itens de ação.
+

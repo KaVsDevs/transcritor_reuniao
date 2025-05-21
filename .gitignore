@@ -1,0 +1,19 @@
+# Variáveis de ambiente 
+.env
+
+# Pastas
+__pycache__/
+.venv/
+venv/
+.vscode/
+arquivos/
+
+# Arquivos binários
+*.mp3
+*.pyc
+*.pyo
+ffmpeg.exe
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
